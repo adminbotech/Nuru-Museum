@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRURU MUSEUM — National Digital Knowledge Presentation</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600;700&family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="specimen-grid-bg">
+
+    <!-- Ambient Grid Coordinates -->
+    <div class="grid-plus-marker" style="top: 100px; left: 40px;">+ A1 : THAI_HERITAGE</div>
+    <div class="grid-plus-marker" style="top: 100px; right: 40px;">+ B4 : GRAPH_ENGINE</div>
+    <div class="grid-plus-marker" style="top: 750px; left: 50px;">+ C2 : SPECIMEN_NODE</div>
+
+    <!-- Navigation Header -->
+    <header>
+        <div class="container nav-inner">
+            <a href="#" class="brand-wrap">
+                <img src="logo.jpg" alt="GRURU Logo">
+                <div class="brand-text">
+                    <h1>GRURU MUSEUM</h1>
+                    <span>DIGITAL KNOWLEDGE GRAPH PLATFORM</span>
+                </div>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#summary" class="active">HALL 01 : OVERVIEW</a></li>
+                <li><a href="#booming">HALL 02 : DATA BOOMING</a></li>
+                <li><a href="#framework">HALL 03 : 5E PIPELINE</a></li>
+                <li><a href="#exhibitions">HALL 04 : EXHIBITIONS</a></li>
+                <li><a href="#policy">HALL 05 : POLICY IMPACT</a></li>
+            </ul>
+            <a href="#booming" class="btn-lime">
+                <i data-lucide="sparkles" style="width: 16px; height: 16px;"></i>
+                สำรวจข้อมูล
+            </a>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-grid">
+                <div>
+                    <div class="hero-badge">
+                        <i data-lucide="cpu" style="width: 14px; height: 14px;"></i>
+                        PRESENTATION FOR DIGITAL ECONOMY & SOCIETY MINISTER
+                    </div>
+                    <div class="specimen-label" style="margin-bottom: 12px;">
+                        SPECIMEN: GRM-2026-GOV-001 • THEME: FUTURE ARCHAEOLOGY
+                    </div>
+                    <h2 class="hero-title">
+                        ปลุกความรู้ในอดีตสู่<br>
+                        <span class="gradient-text">เรื่องเล่าใหม่ที่ใช้ได้จริง</span>
+                    </h2>
+                    <p class="hero-desc">
+                        โครงสร้างพื้นฐานพิพิธภัณฑ์ความรู้ดิจิทัลระดับชาติ ผสานศิลปะ Modern Art เข้ากับห้องแล็บ Sci-Fi เปลี่ยนข้อมูลประวัติศาสตร์และภูมิปัญญาให้กลายเป็น Knowledge Graph โต้ตอบได้ เข้าใจได้ใน 3 วินาที
+                    </p>
+                    <div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap;">
+                        <a href="#booming" class="btn-lime">
+                            <i data-lucide="zap" style="width: 16px; height: 16px;"></i>
+                            เริ่มขุดค้นข้อมูล (Data Booming)
+                        </a>
+                        <a href="#policy" class="btn-outline">
+                            <i data-lucide="file-text" style="width: 16px; height: 16px;"></i>
+                            ยุทธศาสตร์กระทรวง DE
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Visual Exhibition -->
+                <div class="hud-card" style="padding: 12px;">
+                    <img src="hero-exhibit.jpg" alt="Future Archaeology Museum Exhibit" style="width: 100%; border-radius: 4px; display: block;">
+                    <div style="padding: 12px 8px 4px; display: flex; justify-content: space-between; align-items: center;">
+                        <span class="mono" style="font-size: 11px; color: var(--text-muted);">FIG 1.0 : NATIONAL IMMERSIVE KNOWLEDGE HUB</span>
+                        <span class="mono" style="font-size: 11px; color: var(--gr-ember); font-weight: 700;">WCAG AA READY</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3-Second Executive Summary Bar -->
+        <section id="summary" class="summary-bar hud-card">
+            <div style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 12px;">
+                <div>
+                    <div class="specimen-label" style="border-left-color: var(--gr-cyan);">EXECUTIVE 3-SECOND DASHBOARD</div>
+                    <h3 style="font-size: 24px; margin-top: 6px;">สรุปผลลัพธ์เชิงยุทธศาสตร์ต่อพลเมืองดิจิทัล</h3>
+                </div>
+                <div class="mono" style="font-size: 12px; color: var(--text-muted);">
+                    TARGET AGE: 22–40 YEARS • MOBILE-FIRST
+                </div>
+            </div>
+
+            <div class="metric-grid">
+                <div class="metric-card">
+                    <div class="metric-num">
+                        <span>3-5</span>
+                        <span style="font-size: 18px; color: var(--gr-violet);">MIN</span>
+                    </div>
+                    <div class="metric-desc">ระยะเวลาเข้าใจเนื้อหา (ลดจากบทความ 20 นาที)</div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-num">
+                        <span style="color: var(--gr-ember);">40</span>
+                        <span style="font-size: 18px; color: var(--gr-ember);">MS</span>
+                    </div>
+                    <div class="metric-desc">ความเร็ว Data Booming Node Burst</div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-num">
+                        <span>100%</span>
+                        <i data-lucide="check-circle" style="color: var(--gr-bio); width: 22px; height: 22px;"></i>
+                    </div>
+                    <div class="metric-desc">มีแหล่งอ้างอิงและตรวจสอบที่มาได้ 1-Click</div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-num">
+                        <span>1 TAKEAWAY</span>
+                    </div>
+                    <div class="metric-desc">ทุกนิทรรศการมีการ์ดสรุปนำไปใช้จริงทุกวัน</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Data Booming Simulator -->
+        <section id="booming" class="booming-section">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto 36px;">
+                <div class="specimen-label" style="border-left-color: var(--gr-lime);">CORE INNOVATION</div>
+                <h3 style="font-size: 32px; margin-top: 8px;">Data Booming & Dynamic Graph</h3>
+                <p style="color: var(--text-muted); font-size: 15px; margin-top: 6px;">
+                    ทดลองคลิกที่โหนดใจกลาง เพื่อชมการ "ระเบิดความรู้ (Booming Burst)" หรือแตะโหนดลูกเพื่อเปิดอ่าน Everyday Takeaway
+                </p>
+            </div>
+
+            <div class="booming-box">
+                <div class="booming-viewport" id="boomingViewport">
+                    <!-- Core Center -->
+                    <div class="center-core" id="centerCore">
+                        <i data-lucide="sparkles" style="width: 24px; height: 24px; margin-bottom: 2px;"></i>
+                        <span>ภูมิปัญญาไทย</span>
+                        <span class="mono" style="font-size: 10px; opacity: 0.8;">[CLICK ME]</span>
+                    </div>
+
+                    <!-- Sub Nodes with Coordinate Offsets -->
+                    <div class="node-branch" data-node="01" style="--tx: -210px; --ty: -110px; border-left: 4px solid var(--gr-cyan);">
+                        <span class="mono" style="color: var(--gr-cyan);">01</span>
+                        <span>สถาปัตยกรรม & แสงเงา</span>
+                    </div>
+
+                    <div class="node-branch" data-node="02" style="--tx: 210px; --ty: -110px; border-left: 4px solid var(--gr-ember);">
+                        <span class="mono" style="color: var(--gr-ember);">02</span>
+                        <span>เภสัชกรรมสมุนไพรพื้นบ้าน</span>
+                    </div>
+
+                    <div class="node-branch" data-node="03" style="--tx: -250px; --ty: 40px; border-left: 4px solid var(--gr-violet);">
+                        <span class="mono" style="color: var(--gr-violet);">03</span>
+                        <span>ระบบชลประทานเมืองโบราณ</span>
+                    </div>
+
+                    <div class="node-branch" data-node="04" style="--tx: 250px; --ty: 40px; border-left: 4px solid var(--gr-amber);">
+                        <span class="mono" style="color: var(--gr-amber);">04</span>
+                        <span>เทคนิคการทอผ้าเส้นใยธรรมชาติ</span>
+                    </div>
+
+                    <div class="node-branch" data-node="05" style="--tx: -130px; --ty: 130px; border-left: 4px solid var(--gr-bio);">
+                        <span class="mono" style="color: var(--gr-bio);">05</span>
+                        <span>การถนอมอาหารจุลินทรีย์</span>
+                    </div>
+
+                    <div class="node-branch" data-node="06" style="--tx: 130px; --ty: 130px; border-left: 4px solid var(--gr-coral);">
+                        <span class="mono" style="color: var(--gr-coral);">06</span>
+                        <span>เรขาคณิตลายกระหนกดิจิทัล</span>
+                    </div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 18px; flex-wrap: wrap; gap: 10px;">
+                    <div class="mono" style="font-size: 12px; color: var(--text-muted);" id="boomingStatus">
+                        สถานะ: พร้อมขุดค้น
+                    </div>
+                    <button class="btn-lime" id="btnBoomToggle" style="padding: 6px 18px; font-size: 12px;">
+                        RE-TRIGGER BOOM
+                    </button>
+                </div>
+            </div>
+
+            <!-- 6 Dimensions Color Matrix -->
+            <div style="margin-top: 36px;">
+                <h4 style="font-size: 15px; margin-bottom: 12px;" class="mono">หมวดหมู่ความรู้ 6 มิติ (UNIVERSAL DESIGN & WCAG AA)</h4>
+                <div class="cat-matrix">
+                    <div class="cat-box">
+                        <div class="cat-icon" style="background: var(--gr-cyan); border-radius: 50%;">●</div>
+                        <div style="font-weight: 700; font-size: 13px;">วิทยาศาสตร์</div>
+                        <div class="mono" style="font-size: 10px; color: var(--text-muted);">#2EE6FF • วงกลม</div>
+                    </div>
+
+                    <div class="cat-box">
+                        <div class="cat-icon" style="background: var(--gr-ember); clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);">⬡</div>
+                        <div style="font-weight: 700; font-size: 13px;">ประวัติศาสตร์</div>
+                        <div class="mono" style="font-size: 10px; color: var(--text-muted);">#FF5A1F • หกเหลี่ยม</div>
+                    </div>
+
+                    <div class="cat-box">
+                        <div class="cat-icon" style="background: var(--gr-violet); border-radius: 4px;">■</div>
+                        <div style="font-weight: 700; font-size: 13px;">เทคโนโลยี</div>
+                        <div class="mono" style="font-size: 10px; color: var(--text-muted);">#8C6BFF • สี่เหลี่ยม</div>
+                    </div>
+
+                    <div class="cat-box">
+                        <div class="cat-icon" style="background: var(--gr-amber); clip-path: polygon(50% 0%, 0% 100%, 100% 100%);">▲</div>
+                        <div style="font-weight: 700; font-size: 13px;">ภูมิปัญญา</div>
+                        <div class="mono" style="font-size: 10px; color: var(--text-muted);">#FFC233 • สามเหลี่ยม</div>
+                    </div>
+
+                    <div class="cat-box">
+                        <div class="cat-icon" style="background: var(--gr-bio); clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);">◆</div>
+                        <div style="font-weight: 700; font-size: 13px;">ธรรมชาติ & ชีวิต</div>
+                        <div class="mono" style="font-size: 10px; color: var(--text-muted);">#34E89E • ข้าวหลามตัด</div>
+                    </div>
+
+                    <div class="cat-box">
+                        <div class="cat-icon" style="background: var(--gr-coral); border-radius: 50%; border: 3px solid #FFF; box-shadow: 0 0 0 2px var(--gr-coral);">◎</div>
+                        <div style="font-weight: 700; font-size: 13px;">ศิลปะ & ดีไซน์</div>
+                        <div class="mono" style="font-size: 10px; color: var(--text-muted);">#FF5FA2 • วงแหวน</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5E Framework -->
+        <section id="framework" style="margin: 80px 0;">
+            <div class="specimen-label" style="border-left-color: var(--gr-violet);">KNOWLEDGE JOURNEY</div>
+            <h3 style="font-size: 32px; margin-top: 8px;">พันธกิจ 5 ลำดับ (5E Framework)</h3>
+            <p style="color: var(--text-muted); font-size: 15px; margin-top: 4px;">
+                เส้นทางเปลี่ยนคลังความรู้โบราณ สู่ชุดข้อมูลดิจิทัลที่ขับเคลื่อนชีวิตประจำวันของประชาชน
+            </p>
+
+            <div class="pipeline-grid">
+                <div class="pipeline-item" style="--accent: var(--gr-ember);">
+                    <div class="mono" style="font-size: 11px; font-weight: 700; color: var(--gr-ember);">01 • EXCAVATE</div>
+                    <div style="font-size: 18px; font-weight: 700; margin: 4px 0 8px;">ขุดค้นและคัดสรร</div>
+                    <div style="font-size: 13px; color: var(--text-muted);">สกัดความรู้ประวัติศาสตร์ ภูมิปัญญาไทย พร้อมการตรวจหลักฐานที่มา 100%</div>
+                </div>
+
+                <div class="pipeline-item" style="--accent: var(--gr-violet);">
+                    <div class="mono" style="font-size: 11px; font-weight: 700; color: var(--gr-violet);">02 • DECODE</div>
+                    <div style="font-size: 18px; font-weight: 700; margin: 4px 0 8px;">ถอดรหัสข้อมูล</div>
+                    <div style="font-size: 13px; color: var(--text-muted);">แปลงข้อมูลเชิงลึกเป็น Node และ Relation ใน Knowledge Graph</div>
+                </div>
+
+                <div class="pipeline-item" style="--accent: var(--gr-cyan);">
+                    <div class="mono" style="font-size: 11px; font-weight: 700; color: var(--gr-cyan);">03 • RETELL</div>
+                    <div style="font-size: 18px; font-weight: 700; margin: 4px 0 8px;">เล่าใหม่ด้วยภาพ</div>
+                    <div style="font-size: 13px; color: var(--text-muted);">สื่อสารผ่าน Visual Storytelling ที่ย่อยง่าย เข้าใจครบถ้วนใน 3-5 นาที</div>
+                </div>
+
+                <div class="pipeline-item" style="--accent: var(--gr-lime);">
+                    <div class="mono" style="font-size: 11px; font-weight: 700; color: #738A00;">04 • CONNECT</div>
+                    <div style="font-size: 18px; font-weight: 700; margin: 4px 0 8px;">เชื่อมโยงข้ามมิติ</div>
+                    <div style="font-size: 13px; color: var(--text-muted);">สำรวจผ่าน Data Booming และ Interactive Graph ข้ามยุคสมัย</div>
+                </div>
+
+                <div class="pipeline-item" style="--accent: var(--gr-bio);">
+                    <div class="mono" style="font-size: 11px; font-weight: 700; color: var(--gr-bio);">05 • APPLY</div>
+                    <div style="font-size: 18px; font-weight: 700; margin: 4px 0 8px;">นำไปใช้จริง</div>
+                    <div style="font-size: 13px; color: var(--text-muted);">สรุปเป็นการ์ด Everyday Takeaway พกพาไปต่อยอดในชีวิตประจำวัน</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Digital Gallery -->
+        <section id="exhibitions" style="margin: 80px 0;">
+            <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 24px;">
+                <div>
+                    <div class="specimen-label" style="border-left-color: var(--gr-cyan);">CURATED SPECIMENS</div>
+                    <h3 style="font-size: 32px; margin-top: 8px;">ห้องนิทรรศการเสมือนจริง (Virtual Halls)</h3>
+                </div>
+                <span class="mono" style="font-size: 13px; color: var(--text-muted);">6 EXHIBITION MODULES</span>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-card hud-card">
+                    <div class="gallery-card-img">
+                        <img src="ChatGPT Image Oct 8, 2026, 09_53_32 PM-1.png" alt="Exhibit 1">
+                    </div>
+                    <div class="gallery-card-body">
+                        <div class="specimen-label">GRM-1872-ARC-001</div>
+                        <h4 style="font-size: 18px; margin: 8px 0 4px;">สถาปัตยกรรม & สัดส่วนทองคำ</h4>
+                        <p style="font-size: 13px; color: var(--text-muted);">ถอดรหัสโครงสร้างวัดและอาคารโบราณผ่านเรขาคณิตดิจิทัลและแสงเงา</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card hud-card">
+                    <div class="gallery-card-img">
+                        <img src="ChatGPT Image Oct 8, 2026, 09_53_33 PM-2.png" alt="Exhibit 2">
+                    </div>
+                    <div class="gallery-card-body">
+                        <div class="specimen-label">GRM-1905-MED-002</div>
+                        <h4 style="font-size: 18px; margin: 8px 0 4px;">ภูมิปัญญาโอสถสารคราฟต์</h4>
+                        <p style="font-size: 13px; color: var(--text-muted);">การสกัดตัวยาสมุนไพรไทยด้วยมุมมองเคมีสมัยใหม่และการนำไปใช้</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card hud-card">
+                    <div class="gallery-card-img">
+                        <img src="ChatGPT Image Oct 8, 2026, 09_53_34 PM-3.png" alt="Exhibit 3">
+                    </div>
+                    <div class="gallery-card-body">
+                        <div class="specimen-label">GRM-1920-HYD-003</div>
+                        <h4 style="font-size: 18px; margin: 8px 0 4px;">โครงข่ายสายน้ำโบราณ</h4>
+                        <p style="font-size: 13px; color: var(--text-muted);">แผนที่ชลประทานและวิถีการบริหารจัดการน้ำสู่นวัตกรรม Smart City</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card hud-card">
+                    <div class="gallery-card-img">
+                        <img src="ChatGPT Image Oct 8, 2026, 09_53_35 PM-4.png" alt="Exhibit 4">
+                    </div>
+                    <div class="gallery-card-body">
+                        <div class="specimen-label">GRM-1945-TEX-004</div>
+                        <h4 style="font-size: 18px; margin: 8px 0 4px;">นวัตกรรมเส้นใยธรรมชาติ</h4>
+                        <p style="font-size: 13px; color: var(--text-muted);">เทคโนโลยีสิ่งทอพื้นบ้านและการย้อมสีชีวภาพที่เป็นมิตรต่อสิ่งแวดล้อม</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card hud-card">
+                    <div class="gallery-card-img">
+                        <img src="ChatGPT Image Oct 8, 2026, 09_53_37 PM-5.png" alt="Exhibit 5">
+                    </div>
+                    <div class="gallery-card-body">
+                        <div class="specimen-label">GRM-1960-BIO-005</div>
+                        <h4 style="font-size: 18px; margin: 8px 0 4px;">ศาสตร์จุลินทรีย์ถนอมอาหาร</h4>
+                        <p style="font-size: 13px; color: var(--text-muted);">กระบวนการหมักพื้นบ้านที่สร้างสรรค์ Probiotics เพื่อสุขภาพคนรุ่นใหม่</p>
+                    </div>
+                </div>
+
+                <div class="gallery-card hud-card">
+                    <div class="gallery-card-img">
+                        <img src="ChatGPT Image Oct 8, 2026, 09_53_38 PM-6.png" alt="Exhibit 6">
+                    </div>
+                    <div class="gallery-card-body">
+                        <div class="specimen-label">GRM-1980-ART-006</div>
+                        <h4 style="font-size: 18px; margin: 8px 0 4px;">ลายไทยเวกเตอร์อัลกอริทึม</h4>
+                        <p style="font-size: 13px; color: var(--text-muted);">การกำเนิดลายกระหนกด้วยสมการคณิตศาสตร์และ Generative Art</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Policy Impact -->
+        <section id="policy" style="margin: 80px 0; background: #FFFFFF; border: 1px solid var(--border-light); padding: 40px; border-radius: 12px;">
+            <div class="specimen-label" style="border-left-color: var(--gr-ember);">POLICY & STRATEGY</div>
+            <h3 style="font-size: 30px; margin-top: 8px;">คุณค่าเชิงนโยบายต่อกระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคม</h3>
+            
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 24px;">
+                <div style="border-left: 2px solid var(--gr-violet); padding-left: 16px;">
+                    <h4 style="font-size: 18px; margin-bottom: 6px;">1. National Soft Power Hub</h4>
+                    <p style="font-size: 14px; color: var(--text-muted);">ยกระดับทุนวัฒนธรรมและภูมิปัญญาไทยสู่ระดับสากลด้วยมาตรฐาน Open Knowledge Graph</p>
+                </div>
+                <div style="border-left: 2px solid var(--gr-cyan); padding-left: 16px;">
+                    <h4 style="font-size: 18px; margin-bottom: 6px;">2. AI Training Dataset</h4>
+                    <p style="font-size: 14px; color: var(--text-muted);">เป็นคลังข้อมูลที่มีโครงสร้าง (Structured Data) คุณภาพสูง สำหรับเทรน Thai LLM / AI</p>
+                </div>
+                <div style="border-left: 2px solid var(--gr-bio); padding-left: 16px;">
+                    <h4 style="font-size: 18px; margin-bottom: 6px;">3. Lifelong Learning for All</h4>
+                    <p style="font-size: 14px; color: var(--text-muted);">โครงสร้างพื้นฐานการเรียนรู้ยุคใหม่ เข้าถึงง่ายผ่านมือถือ ไม่น่าเบื่อ และนำไปใช้จริงได้ทันที</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Node Details / Everyday Takeaway -->
+    <div class="modal-overlay" id="knowledgeModal">
+        <div class="modal-box">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+                <div class="specimen-label" id="modalId">GRM-XXXX</div>
+                <button id="btnCloseModal" style="background: none; border: none; font-size: 20px; cursor: pointer; color: var(--text-muted);">&times;</button>
+            </div>
+            <h3 id="modalTitle" style="font-size: 22px; margin-bottom: 4px;">Title</h3>
+            <div class="mono" id="modalCategory" style="font-size: 12px; color: var(--gr-violet); font-weight: 600; margin-bottom: 16px;">Category</div>
+            
+            <div style="background: #F8F9FA; border-left: 4px solid var(--gr-lime); padding: 14px; border-radius: 4px; margin-bottom: 16px;">
+                <div class="mono" style="font-size: 11px; font-weight: 700; color: #444; margin-bottom: 4px;">💡 EVERYDAY TAKEAWAY:</div>
+                <div id="modalTakeaway" style="font-size: 14px; color: var(--text-main);">Takeaway Content</div>
+            </div>
+
+            <div class="mono" style="font-size: 11px; color: var(--text-muted);">
+                <strong>SOURCE:</strong> <span id="modalSource">Source info</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+            <div class="mono" style="font-size: 12px; color: var(--text-muted);">
+                GRURU MUSEUM PLATFORM © 2026 • DIGITAL ECONOMY & SOCIETY INITIATIVE
+            </div>
+            <div class="mono" style="font-size: 12px; color: var(--gr-violet); font-weight: 600;">
+                DESIGNED WITH GOOGLE ANTIGRAVITY ENGINE
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script File -->
+    <script src="script.js"></script>
+</body>
+</html>
